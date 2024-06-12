@@ -24,7 +24,7 @@ const ServicesPage = () => {  return (
             <h3 className="text-xl font-semibold mb-4">Responsive Design</h3>
             <p>In today’s mobile-first world, it’s crucial that your website looks and works great on all devices. Our responsive design approach ensures that your site provides an optimal viewing experience across a wide range of devices, from desktops and laptops to tablets and smartphones. We focus on creating intuitive and engaging user interfaces that enhance the user experience and keep visitors coming back.</p>
           </div>
-
+ 
           {/* E-commerce Solutions */}
           <div className="service bg-gray-800 p-6 rounded-lg hover:bg-gray-700 transition duration-300">
             <h3 className="text-xl font-semibold mb-4">E-commerce Solutions</h3>

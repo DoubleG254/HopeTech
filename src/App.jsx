@@ -11,6 +11,8 @@ import Testimonials from './components/Testimonials';
 import WhyChooseUs from './components/WhyChooseUs';
 import FAQ from './components/FAQ';
 // import OurWork from '.components/OurWork';
+import OurProcess from './components/OurProcess';
+import Footer from './components/Footer';
 import Contact from './components/Contact';
 import Header from './components/Header';
 
@@ -24,14 +26,16 @@ const App = () => {
         <Route path="/" element={<HeroSection />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/faqs" element={<FAQ />} />
-
+<Route path="/process" element={<OurProcess/>}/>
         <Route path="/about/why-choose-us" element={<WhyChooseUs />} />
         <Route path="/services/solutions" element={<Solutions />} />
         <Route path="/services/services" element={<ServicesPage />} />
         <Route path="/portfolio/testimonials" element={<Testimonials />} />
         {/* <Route path="/portfolio/our-work" element={<OurWork />} />  */}
          <Route path="/contact" element={<Contact />} />
+         
       </Routes>
+      <Footer/>
     </Router>
     
   );

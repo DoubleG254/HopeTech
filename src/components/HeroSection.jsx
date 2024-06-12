@@ -44,8 +44,8 @@ const HeroSection = () => {
           <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl text-center">Transform Your Digital Presence with HopeTech</h1>
           <h2 className="mt-6 text-lg leading-8 text-gray-300 text-center font-semibold">Cutting-Edge Web Design & Development Solutions Tailored to Your Needs</h2>
           <div className="mt-10 flex justify-center space-x-4">
-            <button className="cta-button bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700">Get a Free Quote</button>
-            <button className="cta-button bg-gray-600 text-white py-2 px-4 rounded-md hover:bg-gray-800">Explore Our Services</button>
+            <button className="cta-button bg-white text-gray py-2 px-4 rounded-md hover:bg-black-700">Get a Free Quote</button>
+            <button className="cta-button bg-white text-gray py-2 px-4 rounded-md hover:bg-black-800">Explore Our Services</button>
           </div>
         </div>
       </div>
