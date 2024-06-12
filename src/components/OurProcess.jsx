@@ -2,7 +2,7 @@ import React from 'react';
 
 const OurProcess  =() => {
   return (
-    <div className="container mx-auto p-6 rounded-2xl">
+    <div className="container mx-auto p-6 pt-20 rounded-2xl">
       <h2 className="text-3xl font-bold mb-6">Our Process: A Seamless Journey from Concept to Launch</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div className="bg-gray-100 p-4 rounded-lg">

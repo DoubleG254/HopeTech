@@ -2,7 +2,7 @@ import React from 'react';
 
 function WhyChooseUs() {
   return (
-    <div className=" text-blue-900 rounded-2xl">
+    <div className=" text-blue-900 rounded-2xl pt-20">
       <div className="container flex flex-col  mx-auto py-12">
         <div className='m-10 flex  items-center'>
           <section>
@@ -16,7 +16,7 @@ function WhyChooseUs() {
           {/* Expert Team */}
           <div className="feature bg-gray-200 p-6 rounded-xl border-b-2 border-r-2 border-blue-500">
             <h3 className="text-xl font-semibold mb-4">Expert Team</h3>
-            <p>Our team consists of skilled professionals with a passion for web development. Each member of our team brings a wealth of experience and expertise to the table, ensuring that your project is in good hands. From our creative designers and meticulous developers to our strategic marketers and dedicated support staff, everyone at HopeTech is committed to delivering the best possible results for our clients.</p>
+            <p className='text-gray-900'>Our team consists of skilled professionals with a passion for web development. Each member of our team brings a wealth of experience and expertise to the table, ensuring that your project is in good hands. From our creative designers and meticulous developers to our strategic marketers and dedicated support staff, everyone at HopeTech is committed to delivering the best possible results for our clients.</p>
           </div>
 
           {/* Custom Solutions */}
@@ -45,7 +45,7 @@ function WhyChooseUs() {
         </div>
 
         <div className="text-center mt-8">
-          <button className="bg-white hover:bg-gray-900 text-black font-semibold py-2 px-4 rounded">Get a Free Quote</button>
+          <button className="bg-blue-500 text-white  hover:bg-gray-800 text-black font-semibold py-2 px-4 rounded">Get a Free Quote</button>
         </div>
       </div>
     </div>

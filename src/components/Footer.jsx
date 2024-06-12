@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Footer =() => {
   return (
-    <footer className="bg-gray-900 text-white py-12">
+    <footer className="bg-gray-900 text-white py-12  w-full">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Services */}
@@ -19,10 +19,6 @@ const Footer =() => {
               <li><Link to="/services">UI/UX Design</Link></li>
               <li><Link to="/services">Web Maintenance</Link></li>
               <li><Link to="/services">PPC Advertising</Link></li>
-
-
-
-
             </ul>
           </div>
 
