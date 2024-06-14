@@ -1,6 +1,16 @@
 import React from 'react';
-
+import { useNavigate } from 'react-router';
 const WelcomeSection    =() => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/services/services');
+  };
+
+
+
+
+
   return (
     <div className="py-16 bg-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -29,7 +39,7 @@ const WelcomeSection    =() => {
             </div>
             {/* Call to action */}
             <div className="mt-12">
-              <button className="bg-blue-500 hover:bg-gray-900 text-white font-bold py-3 px-6 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2 focus:ring-offset-gray-100">
+              <button   onClick={handleClick} className="bg-blue-500 hover:bg-gray-900 text-white font-bold py-3 px-6 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2 focus:ring-offset-gray-100">
                 Get Started Today!
               </button>
             </div>

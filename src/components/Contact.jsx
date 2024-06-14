@@ -21,17 +21,17 @@ const Contact = () => {
                 <label className="block text-sm text-blue-700 font-medium mb-1" htmlFor="message">Message</label>
                 <textarea className="w-full p-2 bg-gray-100 text-white rounded" id="message" rows="4"></textarea>
               </div>
-              <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" type="submit">Send Message</button>
+              <button className="bg-gray-900 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" type="submit">Send Message</button>
             </form>
           </div>
           {/* Contact Information */}
           <div>
-            <h3 className="text-2xl font-bold mb-4">Contact Information</h3>
+            <h3 className="text-2xl text-gray-900 font-bold mb-4">Contact Information</h3>
             <p className="mb-4">You can reach us at:</p>
             <p className="mb-2"><strong>Email:</strong> contact@hopetech.com</p>
             <p className="mb-2"><strong>Phone:</strong> (123) 456-7890</p>
             <p className="mb-4"><strong>Address:</strong> 123 Hope Street, Tech City, TX 12345</p>
-            <h3 className="text-2xl font-bold mt-8 mb-4">Frequently Asked Questions</h3>
+            <h3 className="text-2xl  text-gray-900 font-bold mt-8 mb-4">Frequently Asked Questions</h3>
             <div className="space-y-4">
               <details className="bg-gray-300 p-4 rounded-lg">
                 <summary className="font-semibold cursor-pointer">What services do you offer?</summary>

@@ -29,7 +29,6 @@ const FAQ = () => {
             <p>
               The cost of a custom website varies based on the scope and complexity of the project. We offer competitive pricing and flexible packages to suit different budgets and needs. During the discovery phase, we will provide a detailed quote based on your specific requirements.
             </p>
-            <p className="mt-4 text-blue-500"><a href="/more-faqs">Explore More FAQs</a></p>
           </div>
 
           {/* FAQ 4 */}
