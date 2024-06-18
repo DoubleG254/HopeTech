@@ -4,6 +4,7 @@ import jacobThompson from '../assets/jacobthompson.jpeg';
 import oliviaGreen from '../assets/oliviagreen.jpeg';
 import liamDavis from '../assets/liamdavis.jpeg';
 import isabellaRoberts from '../assets/isabellaroberts.jpeg';
+import { useNavigate } from 'react-router-dom';
 
 // Update the testimonials array to include imported images
 const testimonials = [
@@ -40,6 +41,12 @@ const testimonials = [
 ];
 
 const Testimonials = () => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/contact');
+  };
+
   return (
     <div className="text-blue-900 py-16 pt-20 rounded-2xl">
       <div className="container mx-auto px-4">
@@ -59,7 +66,7 @@ const Testimonials = () => {
           ))}
         </div>
         <div className="flex justify-center mt-8">
-          <button className="px-4 py-2 bg-orange-600 text-white rounded hover:bg-blue-800">Unlock Your Success Today</button>
+          <button onClick={handleClick} className="px-4 py-2 bg-orange-600 text-white rounded hover:bg-blue-800">Unlock Your Success Today</button>
         </div>
       </div>
     </div>

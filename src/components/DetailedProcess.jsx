@@ -6,8 +6,15 @@ import Step4Image from '../assets/STEP4.jpg';
 import Step5Image from '../assets/STEP5.jpg';
 import Step6Image from '../assets/STEP6.jpg';
 import Step7Image from '../assets/STEP7.jpg';
+import { useNavigate } from 'react-router-dom';
 
 const DetailedProcess = () => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/contact');
+  };
+
   return (
     <div className="container mx-auto p-6 pt-24 rounded-2xl">
       <h1 className='text-3xl font-bold mb-6 text-blue-700'>Our Process</h1>
@@ -58,7 +65,7 @@ const DetailedProcess = () => {
       </div>
       <div className="text-center mt-6">
         {/* <button className="bg-orange-600 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded mr-4">Learn More About Our Process</button> */}
-        <button className="bg-orange-600 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded">Get A Free Quote</button>
+        <button   onClick={handleClick} className="bg-orange-600 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded">Get A Free Quote</button>
       </div>
     </div>
   );
