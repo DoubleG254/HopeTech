@@ -28,7 +28,7 @@ const WelcomeSection    =() => {
             {/* Trust badges */}
             <div className="flex justify-center items-center space-x-4">
               <div>
-                <span className="text-3xl font-semibold text-gray-900">100+</span>
+                <span className="text-3xl font-semibold text-gray-900">1000+ </span>
                 <p className="text-sm text-gray-600">Projects Completed</p>
               </div>
               <div>
@@ -39,7 +39,7 @@ const WelcomeSection    =() => {
             </div>
             {/* Call to action */}
             <div className="mt-12">
-              <button   onClick={handleClick} className="bg-blue-500 hover:bg-blue-800 text-white font-bold py-3 px-6 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2 focus:ring-offset-gray-100">
+              <button   onClick={handleClick} className="bg-orange-600 hover:text-white hover:bg-blue-800 text-white font-bold py-3 px-6 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2 focus:ring-offset-gray-100">
                 Get Started Today!
               </button>
             </div>

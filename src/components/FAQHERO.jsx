@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 const MiniFAQ = () => {
     const navigate=useNavigate();
     const handleClick = () => {
-       navigate('/FAQ');
+       navigate('/faqs');
      };
      
 
@@ -40,7 +40,7 @@ const MiniFAQ = () => {
         </div>
         
         <div className="mt-8 flex justify-center">
-          <button  onClick={handleClick} className="px-4 py-2 bg-blue-700 text-white rounded hover:bg-blue-800">Explore More FAQs</button>
+          <button  onClick={handleClick} className="px-4 py-2 bg-orange-600 text-white hover:text-white hover:bg-blue-800 rounded hover:bg-blue-800">Explore More FAQs</button>
         </div>
       </div>
     </div>

@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Header from './Header';
-
-const Navbar = () => {
+import logo from '../assets/logo.jpg';
+const Navbar =() => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleNavbar = () => {
@@ -10,9 +9,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className=" fixed top-0 w-full   bg-white md:md:p-5 p-2p-2 text-blue-900 rounded-b-2xl text-lg border-b-2 border-blue-400 z-10 shadow-xl">
+    <nav className=" fixed top-0 w-full   bg-white md:md:p-5 p-2p-2 text-blue-900 rounded-b-2xl text-lg border-b-2 border-orange-400 z-10 shadow-xl">
       <div className="container mx-auto flex justify-between items-center    ">
-        <span className="font-semibold text-lg">Logo</span>
+        <span className="font-semibold text-lg">
+        <img src={logo} alt="Logo" className="h-11" /></span>
         <button className="text-xl md:hidden" onClick={toggleNavbar}>
           {isOpen ? 'Close' : 'Menu'}
         </button>
@@ -44,24 +44,11 @@ const Navbar = () => {
               </li>
             </ul>
           </li>
-          <li className="relative group" tabIndex="0">
-            <span className="hover:text-blue-400 rounded pb-8 cursor-pointer">
-              Our Services
-            </span>
-            <ul className="md:absolute left-0 hidden md:w-48 md:mt-6 bg-white rounded-b-2xl group-hover:block">
-              
-              <li>
+          <li>
                 <Link to="/services/services" className="block hover:text-blue-400 rounded p-2">
                   Our Services
                 </Link>
               </li>
-              <li>
-                <Link to="/about/expertise" className="block hover:text-blue-400 rounded p-2">
-                  Our Expertise
-                </Link>
-              </li>
-            </ul>
-          </li>
           <li className="relative group" tabIndex="0">
             <span className="hover:text-blue-400 rounded pb-8 cursor-pointer">
               Portfolio

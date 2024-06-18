@@ -56,10 +56,10 @@ const HeroSection = () => {
             Cutting-Edge Web Design & Development Solutions Tailored to Your Needs
           </h2>
           <div className="mt-10 flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-            <button onClick={handleClickSecond} className="cta-button bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-800 bg-opacity-20 border-2 border-blue-500">
+            <button onClick={handleClickSecond} className="cta-button bg-orange-600 text-white py-2 px-4 rounded-md hover:bg-blue-800 hover:text-white ">
               Get a Free Quote
             </button>
-            <button onClick={handleClick} className="cta-button bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-800 bg-opacity-20 border-2 border-blue-500">
+            <button onClick={handleClick} className="cta-button bg-orange-600 hover:text-white hover:bg-blue-800 text-white py-2 px-4 rounded-md hover:bg-blue-800  ">
               Explore Our Services
             </button>
           </div>

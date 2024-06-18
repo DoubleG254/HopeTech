@@ -55,11 +55,10 @@ const DetailedProcess = () => {
         <img src={Step7Image} alt="Step 7" className="mt-4 mx-auto" />
       </div>
       <div className="text-center mt-6">
-        <p>Infographic or step-by-step illustration</p>
       </div>
       <div className="text-center mt-6">
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-4">Learn More About Our Process</button>
-        <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Get A Free Quote</button>
+        {/* <button className="bg-orange-600 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded mr-4">Learn More About Our Process</button> */}
+        <button className="bg-orange-600 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded">Get A Free Quote</button>
       </div>
     </div>
   );

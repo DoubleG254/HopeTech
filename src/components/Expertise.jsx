@@ -55,19 +55,19 @@ const ExpertiseSection = () => {
           </div>
         </div>
         <div className="mt-8 text-center">
-          <button
+          {/* <button
             onClick={handleClick}
             className="bg-blue-500 hover:bg-gray-900 text-white font-bold py-3 px-6 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-100"
           >
             Get a Free Quote
-          </button>
+          </button> */}
         </div>
           </div>
         </div>
         <div className="mt-8 text-center">
           <button
             onClick={handleClick}
-            className="bg-blue-500 hover:bg-blue-800 text-white font-bold py-3 px-6 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-100"
+            className="bg-orange-600 hover:bg-blue-800 text-white hover:text-white font-bold py-3 px-6 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-100"
           >
             Get a Free Quote
           </button>

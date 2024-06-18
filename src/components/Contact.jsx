@@ -21,7 +21,7 @@ const Contact = () => {
                 <label className="block text-sm text-blue-700 font-medium mb-1" htmlFor="message">Message</label>
                 <textarea className="w-full p-2 bg-gray-100 text-white rounded" id="message" rows="4"></textarea>
               </div>
-              <button className="bg-blue-700 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded" type="submit">Send Message</button>
+              <button className="bg-orange-600 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded" type="submit">Send Message</button>
             </form>
           </div>
           {/* Contact Information */}
@@ -29,8 +29,8 @@ const Contact = () => {
             <h3 className="text-2xl text-gray-900 font-bold mb-4">Contact Information</h3>
             <p className="mb-4">You can reach us at:</p>
             <p className="mb-2"><strong>Email:</strong> support@hopetech.com</p>
-            <p className="mb-2"><strong>Phone:</strong> (123) 456-7890</p>
-            <p className="mb-4"><strong>Address:</strong> Nairobi,Kenya 12345</p>
+            <p className="mb-2"><strong>Phone:</strong> Let's Talk! +1 (774) 393-2824</p>
+            <p className="mb-4"><strong>Address:</strong> 144 North Rd, Sudbury, MA 01776</p>
           </div>
         </div>
       </div>

@@ -1,6 +1,13 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const FAQ = () => {
+
+  const navigate=useNavigate();
+
+  const handleClick = () => {
+    navigate('/contact');
+  };
   return (
     <div className=" text-blue-900 pt-20">
       <div className="container mx-auto py-12">
@@ -65,7 +72,7 @@ const FAQ = () => {
         </div>
 
         <div className="text-center mt-8">
-          <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded" aria-label="Contact Us for More Information">
+          <button    onClick={handleClick} className="bg-orange-600 hover:bg-blue-800 text-white font-semibold py-2 px-4 rounded" aria-label="Contact Us for More Information">
             Contact Us for More Information
           </button>
         </div>

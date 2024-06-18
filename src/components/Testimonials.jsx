@@ -1,30 +1,41 @@
 import React from 'react';
+import emilyParker from '../assets/emilyparker.jpeg';
+import jacobThompson from '../assets/jacobthompson.jpeg';
+import oliviaGreen from '../assets/oliviagreen.jpeg';
+import liamDavis from '../assets/liamdavis.jpeg';
+import isabellaRoberts from '../assets/isabellaroberts.jpeg';
 
+// Update the testimonials array to include imported images
 const testimonials = [
   {
     clientName: "Emily Parker",
-    company: "Sunflower Technologies",
+    company: "The Forage",
     testimonial: "HopeTech transformed our outdated website into a modern, user-friendly platform. Their team was professional, responsive, and dedicated to our success. We have seen a significant increase in traffic and conversions since the redesign.",
+    imageUrl: emilyParker,
   },
   {
     clientName: "Jacob Thompson",
-    company: "Quantum Solutions",
+    company: "Picmonic Picture Mmemonics",
     testimonial: "We partnered with HopeTech to develop a custom web application for our business. The process was seamless, and the end result exceeded our expectations. Their expertise and attention to detail were evident throughout the project.",
+    imageUrl: jacobThompson,
   },
   {
     clientName: "Olivia Green",
-    company: "Stellar Innovations",
+    company: "FatJoe",
     testimonial: "HopeTech’s SEO services have been a game-changer for our business. We have seen a dramatic improvement in our search engine rankings and an increase in organic traffic. Their team is knowledgeable, professional, and easy to work with.",
+    imageUrl: oliviaGreen,
   },
   {
     clientName: "Liam Davis",
-    company: "Horizon Enterprises",
+    company: "Word Agents",
     testimonial: "Working with HopeTech was a fantastic experience. Their team was knowledgeable, responsive, and dedicated to our success. They took the time to understand our needs and delivered a solution that exceeded our expectations.",
+    imageUrl: liamDavis,
   },
   {
     clientName: "Isabella Roberts",
-    company: "Cascade Dynamics",
+    company: "Marcella New York",
     testimonial: "We have been working with HopeTech for several years, and they continue to impress us with their quality of work and level of service. They are always available to answer questions and provide support, and their expertise has been invaluable to our business.",
+    imageUrl: isabellaRoberts,
   },
 ];
 
@@ -38,8 +49,9 @@ const Testimonials = () => {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="p-6 bg-gray-200 p-6 rounded-xl border-b-2 border-r-2 border-blue-500 hover:bg-gray-300 transition duration-300 shadow-2xl m-6"
+              className="p-6 bg-gray-200 rounded-xl border-b-2 border-r-2 border-blue-500 hover:bg-gray-300 transition duration-300 shadow-2xl m-6 flex flex-col items-center"
             >
+              <img src={testimonial.imageUrl} alt={testimonial.clientName} className="w-24 h-24 rounded-full mb-4" />
               <p className="italic mb-4">"{testimonial.testimonial}"</p>
               <p className="font-bold">{testimonial.clientName}</p>
               <p className="text-sm">{testimonial.company}</p>
@@ -47,7 +59,7 @@ const Testimonials = () => {
           ))}
         </div>
         <div className="flex justify-center mt-8">
-          <button className="px-4 py-2 bg-blue-700 text-white rounded hover:bg-blue-800">Unlock Your Success Today</button>
+          <button className="px-4 py-2 bg-orange-600 text-white rounded hover:bg-blue-800">Unlock Your Success Today</button>
         </div>
       </div>
     </div>

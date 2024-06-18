@@ -111,7 +111,7 @@ const ServicesPage = () => {
         </div>
 
         <div className="text-center mt-8">
-          <button   onClick={handleClick}    className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">Get a Free Quote</button>
+          <button   onClick={handleClick}    className="bg-orange-600 hover:text-white hover:bg-blue-800 text-white font-semibold py-2 px-4 rounded">Get a Free Quote</button>
         </div>
       </div>
     </div>

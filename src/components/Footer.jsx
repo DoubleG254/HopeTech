@@ -26,7 +26,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Company</h4>
             <ul className="space-y-2">
-              <li><Link to="/about/expertise">Why Choose Us?</Link></li>
+              <li><Link to="/about/why-choose-us">Why Choose Us?</Link></li>
               <li><Link to="/about">Who Are We?</Link></li>
               <li><Link to="/portfolio">Portfolio: Sample Projects</Link></li>
               <li><Link to="/portfolio/testimonials">Customer Testimonials</Link></li>
@@ -47,9 +47,10 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
             <ul className="space-y-2">
               <li><Link to="/contact" className="hover:text-blue-400">Live Chat</Link></li>
-              <li>Email: mgt@hopetech.com</li>
-              <li>Phone Number: 0712345678</li>
-              <li>Address: Nairobi, Kenya</li>
+              <li>Email: support@hopetech.com</li>
+              <li>Phone Number:+1 (774) 393-2824
+</li>
+              <li>Address: 144 North Rd, Sudbury, MA 01776</li>
             </ul>
           </div>
         </div>

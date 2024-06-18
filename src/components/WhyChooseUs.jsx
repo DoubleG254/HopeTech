@@ -55,7 +55,7 @@ function WhyChooseUs() {
         </div>
 
         <div className="text-center mt-8">
-          <button  onClick={handleClicksecond}  className="bg-blue-600 text-white  hover:bg-blue-800 text-black font-semibold py-2 px-4 rounded">Explore More About Our Expertise</button>
+          <button  onClick={handleClicksecond}  className="bg-orange-600 hover:text-black hover:bg-blue-800 text-white font-semibold py-2 px-4 rounded">Explore More About Our Expertise</button>
         </div>
       </div>
     
