@@ -57,7 +57,7 @@ const ProcessPage = () => {
           </div>
         </div>
         <div className="mt-8 text-center mb-8">
-          <button onClick={handleClick} className="px-4 py-2 bg-blue-700 text-white rounded hover:bg-blue-800">
+          <button onClick={handleClick} className="px-4 py-2 bg-orange-600 text-white rounded hover:bg-blue-800">
             Learn More About Our Process
           </button>
         </div>
