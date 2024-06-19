@@ -14,6 +14,7 @@ import Contact from './components/Contact';
 import ExpertiseSection from './components/Expertise';
 import DetailedProcess from './components/DetailedProcess';
 import ScrollToTopWrapper from './components/Wrapper';
+import Portfolio from './components/portfolio';
 const App = () => {
   
   return (
@@ -34,7 +35,8 @@ const App = () => {
             <Route path="/portfolio/testimonials" element={<Testimonials />} />
             <Route path="/contact" element={<Contact />} />
              <Route path="/about/expertise" element={<ExpertiseSection />} /> 
-           <Route path="/detailedprocess" element={<DetailedProcess/>}/>
+           <Route path="/detailedprocess" element={<DetailedProcess/>}/>\
+           <Route path="/portfolio/our-work" element={<Portfolio />} />
 
           </Routes>
           </ScrollToTopWrapper>

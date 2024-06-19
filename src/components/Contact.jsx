@@ -11,15 +11,15 @@ const Contact = () => {
             <form className="bg-gray-400 p-6 rounded-lg space-y-4">
               <div>
                 <label className="block text-sm text-blue-700 font-medium mb-1" htmlFor="name">Name</label>
-                <input className="w-full p-2 bg-gray-100 text-white rounded" type="text" id="name" />
+                <input className="w-full p-2 bg-gray-100 text-black rounded" type="text" id="name" />
               </div>
               <div>
                 <label className="block text-sm text-blue-700 font-medium mb-1" htmlFor="email">Email</label>
-                <input className="w-full p-2 bg-gray-100 text-white rounded" type="email" id="email" />
+                <input className="w-full p-2 bg-gray-100 text-black rounded" type="email" id="email" />
               </div>
               <div>
                 <label className="block text-sm text-blue-700 font-medium mb-1" htmlFor="message">Message</label>
-                <textarea className="w-full p-2 bg-gray-100 text-white rounded" id="message" rows="4"></textarea>
+                <textarea className="w-full p-2 bg-gray-100 text-black rounded" id="message" rows="4"></textarea>
               </div>
               <button className="bg-orange-600 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded" type="submit">Send Message</button>
             </form>

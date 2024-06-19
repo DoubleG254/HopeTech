@@ -75,7 +75,7 @@ function AboutPage() {
   ];
 
   return (
-    <div className="about-page pt-20 text-blue-900 p-6 flex justify-center items-center">
+    <div className="about-page pt-20 text-black p-6 flex justify-center items-center">
       <div className="container m-4">
         <h2 className='text-4xl text-blue-700 font-semibold mb-8'>About HopeTech</h2>
         <p className='w-3/4 text-xl'>HopeTech is a leading web design and development agency committed to bringing your digital vision to life. With 10+ years of experience, our team of experts specializes in creating responsive, user-friendly, and visually captivating websites that drive results.</p>
@@ -87,20 +87,20 @@ function AboutPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-6 text-center md:space-x-12 space-y-8">
           {/* Mission Section */}
-          <div className="mission-section bg-gray-200 p-6 rounded-xl border-b-2 border-r-2 border-blue-500 hover:bg-gray-300 transition duration-300 shadow-2xl">
-            <h3 className="text-lg md:text-xl font-semibold mb-4">Our Mission</h3>
+          <div className="mission-section bg-gray-200 p-6  rounded-xl border-b-2 border-r-2 border-blue-500 hover:bg-gray-300 transition duration-300 shadow-2xl">
+            <h3 className="text-lg  text-blue-700 md:text-xl font-semibold mb-4">Our Mission</h3>
             <p>Our mission is to empower businesses through innovative web solutions. We believe in the power of technology to transform businesses and improve lives. By leveraging the latest technologies and industry best practices, we aim to deliver solutions that not only meet but exceed our clients’ expectations.</p>
           </div>
 
           {/* Vision Section */}
           <div className="vision-section bg-gray-200 p-6 rounded-xl border-b-2 border-r-2 border-blue-500 hover:bg-gray-300 transition duration-300 shadow-2xl">
-            <h3 className="text-lg md:text-xl font-semibold mb-4">Our Vision</h3>
+            <h3 className="text-lg text-blue-700 md:text-xl font-semibold mb-4">Our Vision</h3>
             <p>Our vision is to be the go-to partner for all your digital needs. We aspire to be recognized as a leader in web design and development, known for our creativity, technical expertise, and commitment to excellence.</p>
           </div>
 
           {/* Values Section */}
           <div className="values-section bg-gray-200 p-6 rounded-xl border-b-2 border-r-2 border-blue-500 hover:bg-gray-300 transition duration-300 shadow-2xl">
-            <h3 className="text-lg md:text-xl font-semibold mb-4">Our Values</h3>
+            <h3 className="text-lg text-blue-700 md:text-xl font-semibold mb-4">Our Values</h3>
             <ol className="text-start list-inside">
               <li className="mb-2"><p className="font-semibold text-blue-700">Quality</p> We are committed to delivering the highest quality in everything we do.</li>
               <li className="mb-2"><p className="font-semibold text-blue-700">Innovation</p> We constantly seek new and better ways to serve our clients.</li>
@@ -118,7 +118,7 @@ function AboutPage() {
               <div key={index} className="team-member text-center p-4 bg-white shadow-md rounded-lg">
                 <img src={member.photo} alt={member.name} className="w-full h-64 object-cover rounded-t-lg" />
                 <div className="p-2">
-                  <h4 className="text-lg font-semibold">{member.name}</h4>
+                  <h4 className="text-lg  text-blue-800 font-semibold">{member.name}</h4>
                   <p className="text-gray-600">{member.role}</p>
                 </div>
               </div>
