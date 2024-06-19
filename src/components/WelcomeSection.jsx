@@ -25,18 +25,38 @@ const WelcomeSection    =() => {
             Our experienced team of developers, designers, and digital strategists is committed to turning your ideas into reality. Whether you seek a fresh website, a redesign, or bespoke software solutions, we’re here to ensure your online success.
           </p>
           <div className="mt-8">
-            {/* Trust badges */}
-            <div className="flex justify-center items-center space-x-4">
-              <div>
-                <span className="text-3xl font-semibold text-gray-900">1000+ </span>
-                <p className="text-sm text-gray-600">Projects Completed</p>
-              </div>
-              <div>
-                <span className="text-3xl font-semibold text-gray-900">10+</span>
-                <p className="text-sm text-gray-600">Years of Experience</p>
-              </div>
-              {/* Add more trust badges as needed */}
-            </div>
+           {/* Trust badges */}
+<div className="flex flex-wrap justify-center items-center space-x-4 space-y-4 md:space-y-0">
+  <div>
+    <span className="text-3xl font-semibold text-blue-800">1000+</span>
+    <p className="text-sm text-gray-600">Projects Completed</p>
+  </div>
+  <div>
+    <span className="text-3xl font-semibold text-blue-800">10+</span>
+    <p className="text-sm text-gray-600">Years of Experience</p>
+  </div>
+  <div>
+    <span className="text-3xl font-semibold text-blue-800">70+</span>
+    <p className="text-sm text-gray-600">Development Awards</p>
+  </div>
+  <div>
+    <span className="text-3xl font-semibold text-blue-800">50+</span>
+    <p className="text-sm text-gray-600">Specialized Industries</p>
+  </div>
+  <div>
+    <span className="text-3xl font-semibold text-blue-800">500+</span>
+    <p className="text-sm text-gray-600">Dedicated Developers</p>
+  </div>
+  <div>
+    <span className="text-3xl font-semibold text-blue-800">4,000+</span>
+    <p className="text-sm text-gray-600">Global Customers</p>
+  </div>
+  <div>
+    <span className="text-3xl font-semibold text-blue-800">12,000+</span>
+    <p className="text-sm text-gray-600">Custom Apps Completed</p>
+  </div>
+</div>
+
             {/* Call to action */}
             <div className="mt-12">
               <button   onClick={handleClick} className="bg-orange-600 hover:text-white hover:bg-blue-800 text-white font-bold py-3 px-6 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2 focus:ring-offset-gray-100">
