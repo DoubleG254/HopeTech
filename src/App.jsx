@@ -15,6 +15,7 @@ import ExpertiseSection from './components/Expertise';
 import DetailedProcess from './components/DetailedProcess';
 import ScrollToTopWrapper from './components/Wrapper';
 import Portfolio from './components/portfolio';
+import TawkTo from './components/Tawkto';
 const App = () => {
   
   return (
@@ -41,6 +42,7 @@ const App = () => {
           </Routes>
           </ScrollToTopWrapper>
         </div>
+        <TawkTo/>
         <Footer />
       </div>
     </Router>
