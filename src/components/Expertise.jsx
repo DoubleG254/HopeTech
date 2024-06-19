@@ -13,7 +13,7 @@ const ExpertiseSection = () => {
     <div className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-3xl md:text-4xl text-blue-700 font-semibold mb-4 md:mb-8">Learn More About Our Expertise</h2>
+          <h2 className="text-3xl md:text-4xl text-blue-700 font-semibold mb-4 md:mb-8">  Why Choose Us</h2>
           <p className="text-gray-900 text-lg md:text-xl mx-auto mb-8 max-w-3xl">
             Choosing the right partner for your web design and development needs is crucial to the success of your project. At HopeTech, we understand that you have many options, and we strive to stand out from the competition by offering unparalleled service, expertise, and results.
           </p>
