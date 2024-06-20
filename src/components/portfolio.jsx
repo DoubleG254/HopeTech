@@ -58,7 +58,7 @@ const projects = [
 
 const Portfolio = () => {
   return (
-    <div className="container mx-auto py-12 pt-32 px-4 md:px-8">
+    <div className="container font-sans mx-auto py-12 pt-32 px-4 md:px-8">
       <div className="text-center mb-12">
         <h2 className="text-4xl font-bold mb-4">Sample Projects | Showcasing Our Best Work</h2>
         <p className="text-lg text-gray-700">At HopeTech, we take pride in our work, and we are excited to showcase some of our best projects. Our portfolio includes a diverse range of projects, from small business websites to large-scale enterprise applications. Each project is a testament to our commitment to quality, innovation, and customer satisfaction.</p>

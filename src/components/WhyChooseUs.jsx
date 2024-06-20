@@ -12,7 +12,7 @@ function WhyChooseUs() {
 
 
   return (
-    <div className="text-blue-900 pt-20">
+    <div className=" font-sans text-blue-900 pt-20">
       <div className="container mx-auto py-12 px-4 md:px-8">
         <div className="flex flex-col md:flex-row items-center md:m-10">
           <section className="md:w-1/2 md:mr-10">

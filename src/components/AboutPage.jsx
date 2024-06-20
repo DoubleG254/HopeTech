@@ -75,7 +75,7 @@ function AboutPage() {
   ];
 
   return (
-    <div className="about-page pt-20 text-black p-6 flex justify-center items-center">
+    <div className=" font-sans about-page pt-20 text-black p-6 flex justify-center items-center">
       <div className="container m-4">
         <h2 className='text-4xl text-blue-700 font-semibold mb-8'>About HopeTech</h2>
         <p className='w-3/4 text-xl'>HopeTech is a leading web design and development agency committed to bringing your digital vision to life. With 10+ years of experience, our team of experts specializes in creating responsive, user-friendly, and visually captivating websites that drive results.</p>

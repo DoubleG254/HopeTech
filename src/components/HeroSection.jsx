@@ -47,7 +47,7 @@ const HeroSection = () => {
   };
 
   return (
-    <div className="w-full">
+    <div className="  font-sans w-full">
       <div className="flex items-center justify-center md:min-w-screen" style={divStyle}>
         <div className="container w-full flex flex-col items-center text-center px-4 sm:px-6 lg:px-8 py-24">
           <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
