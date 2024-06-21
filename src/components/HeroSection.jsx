@@ -6,7 +6,7 @@ import AboutSection from './AboutSection';
 import Solutions from './Solutions';
 import ProcessPage from './OurProcess';
 import MiniFAQ from './FAQHERO';
-import Testimonials from './Testimonials';
+import Test from './Test';
 import ECommerceImage from '../assets/ecommerce solutions.jpg';
 import Badges from './awards';
 
@@ -72,7 +72,7 @@ const HeroSection = () => {
       <WhyChooseUs />
       <ProcessPage/>
       <MiniFAQ/>
-      <Testimonials/>
+      <Test/>
       <Badges/>
 
     </div>
