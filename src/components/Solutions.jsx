@@ -133,7 +133,7 @@ const Solutions = () => {
         Comprehensive Digital Solutions to Elevate Your Business
       </h1>
       <p className="text-xl mb-4 text-center">
-        At HopeTech, we offer a comprehensive suite of services to propel your business forward:
+        At CustomGlide, we offer a comprehensive suite of services to propel your business forward:
       </p>
       <div className="flex flex-col md:flex-row justify-between items-start">
         <div className="flex flex-col gap-2 md:w-1/2">

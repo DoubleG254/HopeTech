@@ -19,7 +19,7 @@ const WelcomeSection    =() => {
             Welcome to CustomGlide: Where Innovation Meets Excellence!
           </h2>
           <p className="mt-4 text-lg text-gray-900">
-            Your digital journey begins here. In today’s digital era, your website is more than just a virtual storefront; it’s your brand's ambassador and a powerful sales tool. At HopeTech, we're dedicated to crafting websites and applications that not only impress visually but also excel in performance.
+            Your digital journey begins here. In today’s digital era, your website is more than just a virtual storefront; it’s your brand's ambassador and a powerful sales tool. At CustomGlide, we're dedicated to crafting websites and applications that not only impress visually but also excel in performance.
           </p>
           <p className="mt-4 text-lg text-gray-900">
             Our experienced team of developers, designers, and digital strategists is committed to turning your ideas into reality. Whether you seek a fresh website, a redesign, or bespoke software solutions, we’re here to ensure your online success.
