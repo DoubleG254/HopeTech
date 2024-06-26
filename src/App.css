@@ -2,7 +2,9 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-
+p {
+  @apply text-base;
+}
 
 body{
   background-color: #9e9c9c;

@@ -16,7 +16,7 @@ const WelcomeSection    =() => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-3xl font-extrabold  sm:text-4xl text-blue-700">
-            Welcome to HopeTech: Where Innovation Meets Excellence!
+            Welcome to CustomGlide: Where Innovation Meets Excellence!
           </h2>
           <p className="mt-4 text-lg text-gray-900">
             Your digital journey begins here. In today’s digital era, your website is more than just a virtual storefront; it’s your brand's ambassador and a powerful sales tool. At HopeTech, we're dedicated to crafting websites and applications that not only impress visually but also excel in performance.
@@ -27,10 +27,7 @@ const WelcomeSection    =() => {
           <div className="mt-8">
            {/* Trust badges */}
 <div className="flex flex-wrap justify-center items-center space-x-4 space-y-4 md:space-y-0">
-  <div>
-    <span className="text-3xl font-semibold text-blue-800">1000+</span>
-    <p className="text-sm text-gray-600">Projects Completed</p>
-  </div>
+
   <div>
     <span className="text-3xl font-semibold text-blue-800">10+</span>
     <p className="text-sm text-gray-600">Years of Experience</p>

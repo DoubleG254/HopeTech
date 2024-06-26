@@ -16,9 +16,9 @@ const DetailedProcess = () => {
   };
 
   return (
-    <div className="container mx-auto p-6 pt-24 rounded-2xl">
+    <div className="container  font-sans mx-auto p-6 pt-24 rounded-2xl">
       <h1 className='text-3xl font-bold mb-6 text-blue-700'>Our Process</h1>
-      <h2 className="text-xl mb-8 font-semibold te">At HopeTech, we believe that a well-defined process is the key to delivering successful projects. Our process is designed to ensure that we understand your needs, deliver high-quality solutions, and provide a seamless experience from start to finish.</h2>
+      <h2 className="text-xl mb-8 font-semibold te">At CustomGlide, we believe that a well-defined process is the key to delivering successful projects. Our process is designed to ensure that we understand your needs, deliver high-quality solutions, and provide a seamless experience from start to finish.</h2>
       <div className="bg-gray-100 p-4 rounded-lg">
         <h3 className="text-xl font-bold mb-2">Step 1: Discovery</h3>
         <p>Understanding Your Goals and Requirements</p>

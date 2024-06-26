@@ -47,7 +47,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
             <ul className="space-y-2">
               <li><Link to="/contact" className="hover:text-blue-400">Live Chat</Link></li>
-              <li>Email: support@hopetech.com</li>
+              <li>Email: support@customglide.com</li>
               <li>Phone Number:+1 (774) 393-2824
 </li>
               <li>Address: 144 North Rd, Sudbury, MA 01776</li>

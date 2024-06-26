@@ -12,12 +12,12 @@ function WhyChooseUs() {
 
 
   return (
-    <div className=" font-sans text-blue-900 pt-20">
+    <div className=" font-sans  text-blue-900 pt-20">
       <div className="container mx-auto py-12 px-4 md:px-8">
         <div className="flex flex-col md:flex-row items-center md:m-10">
           <section className="md:w-1/2 md:mr-10">
-            <h2 className="text-3xl md:text-4xl text-blue-700 font-semibold mb-4 md:mb-8">Why Choose HopeTech?</h2>
-            <p className="text-gray-900 text-lg md:text-xl">Choosing the right partner for your web design and development needs is crucial to the success of your project. At HopeTech, we understand that you have many options, and we strive to stand out from the competition by offering unparalleled service, expertise, and results.</p>
+            <h2 className="text-3xl md:text-4xl text-blue-700 font-semibold mb-4 md:mb-8">Why Choose CustomGlide?</h2>
+            <p className="text-gray-900 text-lg md:text-xl">Choosing the right partner for your web design and development needs is crucial to the success of your project. At CustomGlide, we understand that you have many options, and we strive to stand out from the competition by offering unparalleled service, expertise, and results.</p>
           </section>
           <img src='https://images.shiksha.com/mediadata/ugcDocuments/images/wordpressImages/2020_09_5-Best-Programming-Languages-to-Learn-for-Cybersecurity-Professionals-scaled.jpg' alt='' className='rounded-full w-48 h-48 md:w-72 md:h-72 mt-6 md:mt-0' />
         </div>

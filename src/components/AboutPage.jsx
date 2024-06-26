@@ -77,12 +77,12 @@ function AboutPage() {
   return (
     <div className=" font-sans about-page pt-20 text-black p-6 flex justify-center items-center">
       <div className="container m-4">
-        <h2 className='text-4xl text-blue-700 font-semibold mb-8'>About HopeTech</h2>
-        <p className='w-3/4 text-xl'>HopeTech is a leading web design and development agency committed to bringing your digital vision to life. With 10+ years of experience, our team of experts specializes in creating responsive, user-friendly, and visually captivating websites that drive results.</p>
+        <h2 className='text-4xl  text-center text-blue-700 font-semibold mb-8'>About CustomGlide</h2>
+        <p className='w-full  text-center text-xl'>CustomGlide is a leading web design and development agency committed to bringing your digital vision to life. With 10+ years of experience, our team of experts specializes in creating responsive, user-friendly, and visually captivating websites that drive results.</p>
         
         <div className="story-section my-8">
-          {/* <h3 className="text-xl md:text-2xl font-semibold mb-4">Discover Our Story</h3> */}
-          <p className="text-lg">Founded in 2012, HopeTech started as a small team of passionate developers and designers who wanted to make a difference in the digital world. Over the years, we have grown into a full-service digital agency with a diverse team of experts. Our journey has been fueled by our commitment to quality, innovation, and customer satisfaction.</p>
+          <h3 className="text-xl md:text-2xl font-semibold text-blue-700 text-center mb-4"> Our Story</h3>
+          <p className="text-lg text-center">Founded in 2012, CustomGlide started as a small team of passionate developers and designers who wanted to make a difference in the digital world. Over the years, we have grown into a full-service digital agency with a diverse team of experts. Our journey has been fueled by our commitment to quality, innovation, and customer satisfaction.</p>
         </div> 
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-6 text-center md:space-x-12 space-y-8">
@@ -110,8 +110,8 @@ function AboutPage() {
         </div>
 
         <div className="team-section mb-8">
-          <h3 className="text-xl md:text-2xl font-semibold mb-4">Meet the Team</h3>
-          <p>Our team is our greatest asset. We are a group of talented and dedicated professionals with a shared passion for technology and design. From our project managers and developers to our designers and support staff, everyone at HopeTech is committed to providing the best possible service to our clients.</p>
+          <h3 className="text-xl md:text-2xl text-center text-blue-700 font-semibold mb-4">Meet the Team</h3>
+          <p className='text-center'>Our team is our greatest asset. We are a group of talented and dedicated professionals with a shared passion for technology and design. From our project managers and developers to our designers and support staff, everyone at CustomGlide is committed to providing the best possible service to our clients.</p>
           
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {teamMembers.map((member, index) => (
